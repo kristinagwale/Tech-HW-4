@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PetMed.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Tech_HW_4.Default" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h5> Default Content Page</h5>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="jumbotron">
+        <h1 class="display-4">Order Prescription</h1>
+        <p class="lead">Place an order for your pet's medication.</p>
+        <a href="#" class="btn btn-primary">Order Now</a>
+    </div>
 </asp:Content>

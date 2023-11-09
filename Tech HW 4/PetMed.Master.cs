@@ -13,5 +13,24 @@ namespace Tech_HW_4
         {
 
         }
+        protected void NavigateToHomePage(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Page1.aspx");
+        }
+
+        protected void NavigateToPage1(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Default.aspx");
+        }
+
+        protected void NavigateToPage2(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Prescription.aspx");
+        }
+
+        protected void NavigateToPage3(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Page3.aspx");
+        }
     }
 }
