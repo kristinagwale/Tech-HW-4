@@ -11,7 +11,7 @@
     <!-- Content for Medication History Page -->
     <div class="container">
         <h2>Medication History</h2>
-        <!-- Add Bootstrap table for medication history -->
+      
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -19,28 +19,38 @@
                     <th>Medication Name</th>
                     <th>Dosage</th>
                     <th>Prescribing Vet</th>
+                    <th>Pet</th>
+                    <th>Pet Name</th>
+                    <th>Notes</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Sample data, replace with actual data from your system -->
+         
                 <tr>
                     <td>2023-11-01</td>
                     <td>Medication A</td>
                     <td>2 tablets</td>
                     <td>Dr. Vet1</td>
+                    <td>Cat</td>
+                    <td>Rover</td>
+                    <td>Regular check-up</td>
                 </tr>
                 <tr>
                     <td>2023-10-15</td>
                     <td>Medication B</td>
                     <td>1 capsule</td>
                     <td>Dr. Vet2</td>
+                    <td>Dog</td>
+                    <td>Whiskers</td>
+                    <td>Follow-up appointment</td>
                 </tr>
-                <!-- Add more rows as needed -->
+              
             </tbody>
         </table>
     </div>
-    <!-- Add Bootstrap JS and Popper.js scripts -->
+   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </asp:Content>
+

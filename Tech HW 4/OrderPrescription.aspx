@@ -30,7 +30,7 @@
                         <option>Select Prescription Type</option>
                         <option>Medication A</option>
                         <option>Medication B</option>
-                        <!-- Add more options as needed -->
+                    
                     </select>
                 </div>
 
@@ -42,11 +42,11 @@
                         <option>Dog</option>
                         <option>Cat</option>
                         <option>Fish</option>
-                        <!-- Add more options as needed -->
+                      
                     </select>
                 </div>
 
-                <!-- Submit Button -->
+             
                 <button type="submit" class="btn btn-primary">Submit Order</button>
             </form>
         </div>

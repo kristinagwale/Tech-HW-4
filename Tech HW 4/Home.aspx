@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PetMed.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="Tech_HW_4.Home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <!-- Additional head content for HomePage.aspx -->
+   
     <style>
-        /* Add your custom styles for the Home page here */
+      
         .jumbotron {
             background-color: #6aafe0;
             color: white;
