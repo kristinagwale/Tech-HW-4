@@ -21,13 +21,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
+                            <a class="nav-link" href="Home.aspx">Order Prescription</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="OrderPrescription.aspx">Order Prescription</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Prescription.aspx">Prescription Status</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Page3.aspx">Medication History</a>
+                            <a class="nav-link" href="MedicationHistory.aspx">Medication History</a>
                         </li>
                     </ul>
                 </div>
