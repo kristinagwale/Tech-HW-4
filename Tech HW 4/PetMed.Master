@@ -10,38 +10,37 @@
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 </head>
 <body>
-  <form id="form1" runat="server">
-    <div class="container">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#" OnServerClick="NavigateToHomePage">Pet Med System</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" OnServerClick="NavigateToPage1">Order Prescription</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" OnServerClick="NavigateToPage2">Prescription Status</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" OnServerClick="NavigateToPage3">Medication History</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <form id="form1" runat="server">
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Pet Med System</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="OrderPrescription.aspx">Order Prescription</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Prescription.aspx">Prescription Status</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Page3.aspx">Medication History</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-        <!-- Content -->
-        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
-    </div>
+            <!-- Content -->
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
 
-    <!-- Bootstrap JS and Popper.js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</form>
-
+        <!-- Bootstrap JS and Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </form>
 </body>
 </html>
