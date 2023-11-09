@@ -29,7 +29,7 @@
 
     <div class="jumbotron">
         <h1 class="display-4">Welcome to Pet Med System</h1>
-        <p class="lead">Your trusted solution for managing pet prescriptions and medication history.</p>
+        <p class="lead">Your trusted solution for managing pet prescriptions</p>
     </div>
 
     <!-- Add Bootstrap JS and Popper.js scripts -->
