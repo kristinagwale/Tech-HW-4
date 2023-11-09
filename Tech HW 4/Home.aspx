@@ -22,4 +22,4 @@
         <h1 class="display-4">Welcome to Pet Med System</h1>
         <p class="lead">Your trusted solution for managing pet prescriptions and medication history.</p>
     </div>
-</asp:Content>>
+</asp:Content>
